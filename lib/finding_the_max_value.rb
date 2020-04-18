@@ -4,9 +4,8 @@ def find_max_value(array)
     value = array[count]
     if value > array[count - 1]
       max_value = value
-    else
-      count += 1
     end
+    count += 1
   end
   puts max_value
 end
