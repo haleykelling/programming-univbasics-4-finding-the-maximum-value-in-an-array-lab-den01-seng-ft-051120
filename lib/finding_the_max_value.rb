@@ -10,6 +10,3 @@ def find_max_value(array)
   puts max_value
 end
 
-scale = [1, 2, 3, 4, 5, 10, 2, 6, 27, 11]
-
-find_max_value(scale)
